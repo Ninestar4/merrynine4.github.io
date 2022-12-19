@@ -1,0 +1,78 @@
+html {
+  height: 2300px;
+}
+.header {
+  background-color: rgba(255, 0, 0, 0.9);
+  display: flex;
+  height: 130px;
+  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
+  right:0px;
+  left: 0px;
+  top:0px;
+  position: fixed;
+}
+body {
+  margin-top: 150px;
+  background-color: green;
+}
+.merry {
+  font-family: "Sofia", sans-serif;
+  color: aliceblue;
+  font-size: 80px;
+  margin-top:0;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.merry:hover {
+  color: antiquewhite;
+  font-size: 85px;
+  margin-top: -5px
+}
+.div1:hover .pic3 {
+  margin-left: 700px;
+}
+.pic1 {
+  margin-left: 20px;
+  height: 100px;
+  margin-top: 10px;
+}
+.pic2 {
+  height: 100px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+.pic3 {
+  transition: 0.9s;
+  cursor: pointer;
+}
+
+.b1 {
+  color: white;
+  background-color: red;
+  border: none;
+  border-radius: 50px;
+  font-size: 50px;
+  padding: 10px 25px 10px 25px;
+  transition: 0.8s;
+  cursor: pointer;
+  margin-left: 110px;
+}
+.b1:hover {
+  background-color: rgb(246, 54, 54);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-size: 51px;
+}
+.b1:active {
+  background-color: rgb(175, 0, 0);
+}
+.div2 {
+  margin-top: 1300px;
+  margin-left: 500px;;
+}
+.pic4 {
+  height: 250px;
+  display: block;
+  margin-bottom: 50px;
+}
